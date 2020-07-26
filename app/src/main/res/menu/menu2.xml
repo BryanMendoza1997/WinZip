@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_recientes"
+            android:icon="@drawable/ic_recent"
+            android:title="Recent"/>
+        <item
+            android:id="@+id/menu_favorites"
+            android:icon="@drawable/ic_favorites"
+            android:title="Favorites"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Places">
+        <menu>
+            <item
+            android:id="@+id/menu_myfiles"
+            android:icon="@drawable/ic_myfiles"
+            android:title="My Files"/>
+            <item
+                android:id="@+id/menu_storages"
+                android:icon="@drawable/ic_storages"
+                android:title="Storages"/>
+            <item
+                android:id="@+id/menu_photos"
+                android:icon="@drawable/ic_photos"
+                android:title="Photos"/>
+            <item
+                android:id="@+id/menu_music"
+                android:icon="@drawable/ic_music"
+                android:title="Music"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_submenudos"
+        android:title="Network and Cloud">
+        <menu>
+            <item
+                android:id="@+id/menu_network"
+                android:icon="@drawable/ic_network"
+                android:title="Network"/>
+            <item
+                android:id="@+id/menu_dropbox"
+                android:icon="@drawable/ic_dropbox"
+                android:title="Dropbox"/>
+            <item
+                android:id="@+id/menu_google"
+                android:icon="@drawable/ic_googledrive"
+                android:title="Google Drive"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_submenutres"
+        android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/menu_clean"
+                android:icon="@drawable/ic_cleanphoto"
+                android:title="Clean Photo"/>
+            <item
+                android:id="@+id/menu_accespc"
+                android:icon="@drawable/ic_accesspc"
+                android:title="Acces from PC"/>
+
+        </menu>
+    </item>
+</menu>
